@@ -5,7 +5,11 @@ import {useState} from "react"
 
 
 const UsersWeather = () => {
-const[userLocation,setUserLocation]=useState(false)
+const[userLocation,setUserLocation]=useState(true)
+//need to make it so the search remains at the bottom before the search
+//Centre the "compare where you are"
+//check the visual on heading labels showing with horizontal mobile
+//make sure the footer remains at the bottom when content empty
 const[userTemp,setUserTemp]=useState("")
 const[userweather, setUserWeather]=useState("")
 const[userDescription,setUserDescription]=useState("")
