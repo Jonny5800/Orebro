@@ -7,7 +7,7 @@ import {useState} from "react"
 const UsersWeather = () => {
 const[userLocation,setUserLocation]=useState(true)
 //need to make it so the search remains at the bottom before the search
-//Centre the "compare where you are"
+
 //check the visual on heading labels showing with horizontal mobile
 //make sure the footer remains at the bottom when content empty
 const[userTemp,setUserTemp]=useState("")
@@ -39,7 +39,7 @@ const getWeather=()=>{
     setUserDescription(capitalisedDescription)
     setUserWind(response.data.wind.speed)
     setHumidity(response.data.main.humidity)
-              
+              console.log(userLocation)
     })
     .catch(error=>{
         setErrorCode(error)
@@ -61,25 +61,24 @@ const handleCountryChange = (event) =>{
         <div className='userWeatherOutputDiv'>
             {            
             userLocation ? (<div>
-            <h2 className='weatherOutputLocal'>Weather for {userLocation}</h2>
-            <h4 className='weatherOutputLocal'>{userweather} ({userDescription})</h4>
-            <h4 className='weatherOutputLocal'>Temperature: {userTemp}°C</h4>
+            <h2 className='weatherOutputLocal cityName'>Weather for {userLocation}</h2>
+            <h4 className='weatherOutputLocal desc'>{userweather} ({userDescription})</h4>
+            <h4 className='weatherOutputLocal topMar'>Temperature: {userTemp}°C</h4>
             <h4 className='weatherOutputLocal'>Wind: {userWind}mph</h4>
             <h4 className='weatherOutputLocal'>Humidity: {humidity}%</h4>
             </div>) :(null)
             } 
         </div>
         
-         {/* below here to be exported into UserWeatherSearch.jsx */}
+         
          <div className='UserWeatherSearchDiv'>
-          {/* <div>Visitor'ssss Weather</div> */}
           {errorTrue ? (null) : (<div></div>)}
           <input type="text" placeholder='Enter City' value={userCity} onChange={handleCityChange} />
           <input type="text" placeholder='Enter Country' value={userCountry} onChange={handleCountryChange}  />
           <button onClick={getWeather}>Click to Compare</button>
           {errorTrue && <div style={{color: "red", fontWeight: "bold"}}>{errorMessage}</div>}
         </div>
-        {/* Above here to be exported into UserWeatherSearch.jsx */}
+        
          
        
           

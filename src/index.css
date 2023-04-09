@@ -1,5 +1,5 @@
 *{
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .main{
   padding-bottom: 50px;
@@ -223,13 +223,11 @@ position: relative;
 }  
 
 .weatherDiv{
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  margin: 30px auto 10px;
-  white-space: nowrap; */
 
   
-  display: inline-block; /* set the display to inline-block to make the element wrap */
+ /* display: inline-block; /* set the display to inline-block to make the element wrap */
   max-width: 100%; /* set the maximum width to the available width */
   overflow: hidden; /* hide any overflow */
   text-overflow: ellipsis; /* show an ellipsis when the text is truncated */
@@ -290,7 +288,7 @@ position: relative;
   text-align: center;
   justify-content: center;
   align-items: center;
-  /* max-width: 95vw; */
+  
 }
 .whereToStayImg{
   max-width: 95vw;
@@ -369,15 +367,8 @@ position: relative;
   }
 }   
 
-/* @media (min-width){
-  .orebroText{
-max-width: fit-content;
-  }
-} */
 
-
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 490px) {
   .weatherDiv {
     font-size: 1.5rem; /* adjust the font size for smaller screens */
     max-height: 3.6rem; /* set the maximum height to 2 lines at the smaller font size */
@@ -389,15 +380,40 @@ max-width: fit-content;
 }
 
 @media screen and (max-width: 400px) {
-  .weatherOutputOrebro{
+  .weatherOutputOrebro .desc{
 font-size: 1rem;
 margin: 0px;
+height: 42px;
+color: red;
   }
 }
 
+
 @media screen and (max-width: 400px) {
-  .weatherOutputLocal{
+  .weatherOutputLocal .desc{
     font-size: 1rem;
     margin: 0px;
+    height: 42px;
+    color: red;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .cityName {
+    height: 64px;
+    /* color: green; */
+  }
+}
+@media screen and (max-width: 400px) {
+  .desc {
+    /* color: blue; */
+    height: 42px;    
+  }
+}
+
+
+/* @media screen and (max-width:490px){
+  .weatherDiv{
+    /* font-size: 1.5rem; */
+  /*}
+} */

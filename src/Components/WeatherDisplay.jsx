@@ -34,9 +34,9 @@ function WeatherDisplay() {
  
   return (
     <div>
-      <h2 className='weatherOutputOrebro'>Weather for {name}</h2>
-      <h4 className='weatherOutputOrebro'>{main} ({description}) </h4>
-      <h4 className='weatherOutputOrebro'>Temperature: {celciusTemp}°C</h4>
+      <h2 className='weatherOutputOrebro cityName'>Weather for {name}</h2>
+      <h4 className='weatherOutputOrebro desc'>{main} ({description}) </h4>
+      <h4 className='weatherOutputOrebro topMar'>Temperature: {celciusTemp}°C</h4>
       <h4 className='weatherOutputOrebro'>Wind: {wind}mph</h4>
       <h4 className='weatherOutputOrebro'>Humidity: {humidity}%</h4>
     </div>
