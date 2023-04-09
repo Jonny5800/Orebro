@@ -5,7 +5,7 @@ import WeatherDisplay from './WeatherDisplay'
 import UsersWeather from './UsersWeather'
 
 // before a user Search, weather for "your search"
-//make brckets round user description conditional
+//make brckets round user description conditional 
 
 const HomePage = () => {
   
