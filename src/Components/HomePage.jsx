@@ -5,13 +5,14 @@ import WeatherDisplay from './WeatherDisplay'
 import UsersWeather from './UsersWeather'
 
 // before a user Search, weather for "your search"
-//make brckets round user description conditional 
+//make brckets round user description conditional  
+//extra line to commit
 
 const HomePage = () => {
   
 return (
 <div>
-  <div className='welcomeBanner'>
+  <div className='welcomeBanner '>
     <h1 className='welcomeMessage'>Say Hello to Örebro</h1>
     <img src={CastleCropped} alt="castleBackground" className='castleBackground'/>
   </div>
