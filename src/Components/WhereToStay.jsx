@@ -9,8 +9,7 @@ const WhereToStay = () => {
         <h5>Image Credit:https://thespaces.com/wp-content/uploads/2017/06/Swedish-property-for-sale-Villa-Ulfsbo-13.jpg</h5>
 
     </div>
-    
-
+   
   )
 }
 

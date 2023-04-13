@@ -1,15 +1,10 @@
 import React from 'react'
 import Axios from "axios"
 import {useState} from "react"
-// import {useEffect} from "react"
 
 
 const UsersWeather = () => {
 const[userLocation,setUserLocation]=useState(true)
-//need to make it so the search remains at the bottom before the search
-
-//check the visual on heading labels showing with horizontal mobile
-//make sure the footer remains at the bottom when content empty
 const[userTemp,setUserTemp]=useState("")
 const[userweather, setUserWeather]=useState("")
 const[userDescription,setUserDescription]=useState("")
@@ -72,16 +67,13 @@ const handleCountryChange = (event) =>{
         
          
          <div className='UserWeatherSearchDiv'>
-          {errorTrue ? (null) : (<div></div>)}
-          <input type="text" placeholder='Enter City' value={userCity} onChange={handleCityChange} />
-          <input type="text" placeholder='Enter Country' value={userCountry} onChange={handleCountryChange}  />
-          <button onClick={getWeather}>Click to Compare</button>
-          {errorTrue && <div style={{color: "red", fontWeight: "bold"}}>{errorMessage}</div>}
+            {errorTrue ? (null) : (<div></div>)}
+            <input type="text" placeholder='Enter City' value={userCity} onChange={handleCityChange} />
+            <input type="text" placeholder='Enter Country' value={userCountry} onChange={handleCountryChange}  />
+            <button onClick={getWeather}>Click to Compare</button>
+            {errorTrue && <div style={{color: "red", fontWeight: "bold"}}>{errorMessage}</div>}
         </div>
         
-         
-       
-          
     </div>
   
   )

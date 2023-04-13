@@ -28,7 +28,6 @@ function WeatherDisplay() {
   const celciusTemp = (temp - 273.15).toFixed(2)
   const  wind   = weatherData.wind.speed
   
-  //console.log(weatherData.wind.speed + " thats speed")
   console.log(weatherData)
   console.log(weatherData.weather[0].description + " the description")
  

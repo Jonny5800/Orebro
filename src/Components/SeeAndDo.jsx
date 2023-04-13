@@ -5,13 +5,11 @@ const SeeAndDo = () => {
   return (
     <div>
         <div className='firstSeeAndDo'>
-        <h1>Places to See Things to Do</h1>
-        <img src={WaterParkGustavsvik} className="foodPics" alt="waterPark"/>
+          <h1>Places to See Things to Do</h1>
+          <img src={WaterParkGustavsvik} className="foodPics" alt="waterPark"/>
         </div>
-        
     </div>
-    
-    
+     
   )
 }
 

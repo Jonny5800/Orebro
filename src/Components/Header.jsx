@@ -2,7 +2,8 @@ import React from 'react'
 import OrebroTower from "../Images/OrebroTower.jpg"
 import {Link} from "react-router-dom"
 import {useState} from "react"
-import OrebroText from "../Images/OrebroText.png"
+
+import OrebroTextTwo from "../Images/OrebroTextTwo.png"
 
 const Header = () => {
 const[burgerActive, setBurgerActive]=useState(false)
@@ -16,10 +17,10 @@ return (
     className='OrebroHeaderList'>
   </div>
   <div>
-    <Link to="/"><img src={OrebroTower} className="orebroTower" alt="OrebroTower"/></Link>
+    <Link to="/orebro"><img src={OrebroTower} className="orebroTower" alt="OrebroTower"/></Link>
   </div>
   <div className='orebroList'>
-  <Link to="/"><img className='orebroText' src={OrebroText} alt="OrebroText"/></Link>
+    <Link to="/orebro"><img className='orebroText' src={OrebroTextTwo} alt="OrebroTextTwo"/></Link>
     <div className='headerList'> 
       <ul className='seeAndDo'><Link to="SeeAndDo">Things to See and Do</Link></ul> 
       <ul className='foodAndDrink'><Link to="FoodAndDrink">Food & Drink</Link></ul>

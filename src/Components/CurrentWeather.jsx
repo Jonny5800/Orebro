@@ -5,11 +5,9 @@ import Axios from "axios"
 
 
 const CurrentWeather = () => {
-
     const API_Key = "3857155a831a5b4da099e4540bf8282c"
     const API_URL = "http://api.weatherstack.com/current"
     const[locationQuery, setLocationQuery]=useState("Orebro Sweden")
-
     const [weatherData, setWeatherData] = useState(null);
 
     useEffect(() => {
@@ -30,7 +28,7 @@ const CurrentWeather = () => {
     console.log('weatherData:', weatherData);
 
     return (
-        <div>
+    <div>
       <div>CurrentWeather</div>
       {weatherData ? (
         <div>

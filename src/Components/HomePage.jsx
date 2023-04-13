@@ -7,7 +7,12 @@ import UsersWeather from './UsersWeather'
 // before a user Search, weather for "your search"
 //make brckets round user description conditional  
 //extra line to commit
-
+//Use font awesome icons too
+// Insta to add - https://www.instagram.com/explore/tags/%C3%B6rebro/?hl=en
+// Youtube link to add - https://www.youtube.com/results?search_query=orebro
+// Twitter link to add - https://mobile.twitter.com/giannis2221963/status/1373288274119303175
+// Facebook link to add - https://www.facebook.com/places/Things-to-do-in-Orebro-Sweden/110611878960213/
+//Inspired by "vitis cornwall" page
 const HomePage = () => {
   
 return (
