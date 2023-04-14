@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e474f28.css",
-    "main.js": "/static/js/main.6333a6c1.js",
-    "static/media/CastleCropped.jpg": "/static/media/CastleCropped.02016636e51caf050666.jpg",
-    "static/media/SwedishHome.jpg": "/static/media/SwedishHome.5671f24ed3cc353338e4.jpg",
-    "static/media/PotatoPancakes.jpg": "/static/media/PotatoPancakes.1db56ce4eee06173ad95.jpg",
-    "static/media/CannonKids.jpg": "/static/media/CannonKids.3978a9eb1b2fa867c95c.jpg",
-    "static/media/WaterParkGustavsvik.jpg": "/static/media/WaterParkGustavsvik.5a8dd3f8c9b7c659bdb4.jpg",
-    "static/media/OrebroSign.jpg": "/static/media/OrebroSign.50ed28468f5ae16e350c.jpg",
-    "index.html": "/index.html",
-    "main.3e474f28.css.map": "/static/css/main.3e474f28.css.map",
-    "main.6333a6c1.js.map": "/static/js/main.6333a6c1.js.map"
+    "main.css": "/visit-sweden/static/css/main.951e0a94.css",
+    "main.js": "/visit-sweden/static/js/main.85011645.js",
+    "static/media/CastleCropped.jpg": "/visit-sweden/static/media/CastleCropped.02016636e51caf050666.jpg",
+    "static/media/SwedishHome.jpg": "/visit-sweden/static/media/SwedishHome.5671f24ed3cc353338e4.jpg",
+    "static/media/PotatoPancakes.jpg": "/visit-sweden/static/media/PotatoPancakes.1db56ce4eee06173ad95.jpg",
+    "static/media/CannonKids.jpg": "/visit-sweden/static/media/CannonKids.3978a9eb1b2fa867c95c.jpg",
+    "static/media/WaterParkGustavsvik.jpg": "/visit-sweden/static/media/WaterParkGustavsvik.5a8dd3f8c9b7c659bdb4.jpg",
+    "static/media/OrebroSign.jpg": "/visit-sweden/static/media/OrebroSign.50ed28468f5ae16e350c.jpg",
+    "index.html": "/visit-sweden/index.html",
+    "main.951e0a94.css.map": "/visit-sweden/static/css/main.951e0a94.css.map",
+    "main.85011645.js.map": "/visit-sweden/static/js/main.85011645.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e474f28.css",
-    "static/js/main.6333a6c1.js"
+    "static/css/main.951e0a94.css",
+    "static/js/main.85011645.js"
   ]
 }
