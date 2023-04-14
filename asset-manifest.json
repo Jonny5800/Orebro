@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/visit-sweden/static/css/main.951e0a94.css",
-    "main.js": "/visit-sweden/static/js/main.85011645.js",
-    "static/media/CastleCropped.jpg": "/visit-sweden/static/media/CastleCropped.02016636e51caf050666.jpg",
-    "static/media/SwedishHome.jpg": "/visit-sweden/static/media/SwedishHome.5671f24ed3cc353338e4.jpg",
-    "static/media/PotatoPancakes.jpg": "/visit-sweden/static/media/PotatoPancakes.1db56ce4eee06173ad95.jpg",
-    "static/media/CannonKids.jpg": "/visit-sweden/static/media/CannonKids.3978a9eb1b2fa867c95c.jpg",
-    "static/media/WaterParkGustavsvik.jpg": "/visit-sweden/static/media/WaterParkGustavsvik.5a8dd3f8c9b7c659bdb4.jpg",
-    "static/media/OrebroSign.jpg": "/visit-sweden/static/media/OrebroSign.50ed28468f5ae16e350c.jpg",
-    "index.html": "/visit-sweden/index.html",
-    "main.951e0a94.css.map": "/visit-sweden/static/css/main.951e0a94.css.map",
-    "main.85011645.js.map": "/visit-sweden/static/js/main.85011645.js.map"
+    "main.css": "/orebro/static/css/main.09ea7145.css",
+    "main.js": "/orebro/static/js/main.817f5168.js",
+    "static/media/CastleCropped.jpg": "/orebro/static/media/CastleCropped.02016636e51caf050666.jpg",
+    "static/media/SwedishHome.jpg": "/orebro/static/media/SwedishHome.5671f24ed3cc353338e4.jpg",
+    "static/media/PotatoPancakes.jpg": "/orebro/static/media/PotatoPancakes.1db56ce4eee06173ad95.jpg",
+    "static/media/CannonKids.jpg": "/orebro/static/media/CannonKids.3978a9eb1b2fa867c95c.jpg",
+    "static/media/WaterParkGustavsvik.jpg": "/orebro/static/media/WaterParkGustavsvik.5a8dd3f8c9b7c659bdb4.jpg",
+    "static/media/OrebroSign.jpg": "/orebro/static/media/OrebroSign.50ed28468f5ae16e350c.jpg",
+    "index.html": "/orebro/index.html",
+    "main.09ea7145.css.map": "/orebro/static/css/main.09ea7145.css.map",
+    "main.817f5168.js.map": "/orebro/static/js/main.817f5168.js.map"
   },
   "entrypoints": [
-    "static/css/main.951e0a94.css",
-    "static/js/main.85011645.js"
+    "static/css/main.09ea7145.css",
+    "static/js/main.817f5168.js"
   ]
 }
