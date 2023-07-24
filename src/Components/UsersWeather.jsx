@@ -4,7 +4,7 @@ import {useState} from "react"
 
 
 const UsersWeather = () => {
-const[userLocation,setUserLocation]=useState(true)
+const[userLocation,setUserLocation]=useState(false)
 const[userTemp,setUserTemp]=useState("")
 const[userweather, setUserWeather]=useState("")
 const[userDescription,setUserDescription]=useState("")
@@ -61,7 +61,9 @@ const handleCountryChange = (event) =>{
             <h4 className='weatherOutputLocal topMar'>Temperature: {userTemp}°C</h4>
             <h4 className='weatherOutputLocal'>Wind: {userWind}mph</h4>
             <h4 className='weatherOutputLocal'>Humidity: {humidity}%</h4>
-            </div>) :(null)
+            </div>) :(
+                <h2>Search for a city</h2>
+            )
             } 
         </div>
         

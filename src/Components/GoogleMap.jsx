@@ -2,10 +2,11 @@ import React, { useRef, useEffect } from "react";
 
 const Map = () => {
   const googleMapRef = useRef(null);
-  let googleMap = null;
+ 
 
   useEffect(() => {
-    googleMap = initGoogleMap();
+    
+    initGoogleMap();
   }, []);
 
   const initGoogleMap = () => {
@@ -20,8 +21,8 @@ const Map = () => {
       id="google-map"
       className="googleMap"
       ref={googleMapRef}
-    //   style={{ width: "100%", height: "500px" }}
-    style={{ width: "1200px", height: "300px" }}
+    style={{ width: "90vw", height: "300px" }}
+  
     />
   );
 };

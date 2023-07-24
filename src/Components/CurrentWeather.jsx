@@ -14,7 +14,7 @@ const CurrentWeather = () => {
         Axios.get(API_URL, {
             params: {
                 access_key: API_Key,
-                query: locationQuery // Replace with the desired location
+                query: locationQuery 
             }
         })
         .then(response => {
@@ -85,50 +85,3 @@ export default CurrentWeather
 
 
 
-
-
-
-
-
-
-//***************************************** */
-
-
-// import React from 'react'
-// import Axios from "axios"
-
-// const CurrentWeather = () => {
-
-//     const axios = require("axios")
-//     const API_Key = "3857155a831a5b4da099e4540bf8282c"
-//     const API_URL = "http://api.weatherstack.com/current"
-
-//     axios.get(API_URL, {
-//         params: {
-//           access_key: API_Key,
-//           query: 'New York' // Replace with the desired location
-//         }
-//       })
-//     .then(response => {
-//         console.log(response.data)
-//     })
-//     .catch(error => {
-//         console.error(error)
-//     })
-
-
-//     // const getWeather=()=>{
-//     //     Axios.get("http://api.weatherstack.com/current?").then((response)=>{
-//     //         console.log(response)
-//     //     })
-//     // }
-//   return (
-//     <div>
-//         <div>CurrentWeather</div>
-//         {/* <button onClick={getWeather}>Get Weather</button> */}
-//     </div>
-    
-//   )
-// }
-
-// export default CurrentWeather

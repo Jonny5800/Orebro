@@ -1,14 +1,14 @@
-*{
-  /* border: 1px solid black; */
-}
-.main{
+/* * {
+  border: 1px solid black;
+} */
+.main {
   padding-bottom: 50px;
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -27,24 +27,26 @@ html {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
-
-.header{
+.home-page-blue-text {
+  color: rgb(104, 141, 243);
+  color: rgb(0, 106, 167);
+}
+.header {
   display: flex;
   background-color: gray;
   background-color: rgb(41, 41, 41);
-  background-color: rgb(0,106,167);
+  background-color: rgb(0, 106, 167);
   min-height: 220px;
   border-bottom: rgb(254, 204, 2) 3px solid;
 }
 
-.hamburger{
+.hamburger {
   margin-top: 30px;
-  /* position: relative; */
-position: absolute;
-right: 20px;
+  position: absolute;
+  right: 20px;
   display: block;
   cursor: pointer;
   width: 35px;
@@ -54,32 +56,33 @@ right: 20px;
   outline: none;
   border: none;
   z-index: 12;
-  }
-/* ::before and ::after are seudo elements, get explanation of them */
-.hamburger .bar, .hamburger:after, .hamburger:before{
-display: block;
-width: 100%;
-height: 5px;
-background-color: rgb(254, 204, 2);
-margin: 6px 0px;          
-transition: 0.4s;
-content: "";
 }
 
-.hamburger.is-active:before{
-  transform:rotate(-45deg) translate(-8px,6px);
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: rgb(254, 204, 2);
+  margin: 6px 0px;
+  transition: 0.4s;
+  content: "";
 }
 
-.hamburger.is-active:after{
-  transform:rotate(45deg) translate(-9px,-8px);
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-8px, 6px);
 }
 
-.hamburger.is-active .bar{
-  opacity:0;
-  /* display: none; This misaligns the lines*/
+.hamburger.is-active:after {
+  transform: rotate(45deg) translate(-9px, -8px);
 }
 
-.menu-list{
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+.menu-list {
   position: fixed;
   top: 0;
   left: 100%; /*hides the menu */
@@ -87,125 +90,118 @@ content: "";
   min-height: 100vh;
   display: block;
   z-index: 10;
-  background-color: rgb(0,106,167);
+  background-color: rgb(0, 106, 167);
   padding-top: 120px;
   transition: 0.4s;
-  }
+}
 
-  .menu-list.is-active{
-    left: 0;
-  }
+.menu-list.is-active {
+  left: 0;
+}
 
-  .menu-list  ul {
-    display: block;
-    width: 100%;
-    max-width: 200px;
-    text-align:center;
-    margin: 0 auto 16px;
-    padding: 12px 16px;
-    background-color: rgb(254, 204, 2);
-    text-decoration: none;
-    border-radius: 5px;
-  }
+.menu-list ul {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto 16px;
+  padding: 12px 16px;
+  background-color: rgb(254, 204, 2);
+  text-decoration: none;
+  border-radius: 5px;
+}
 
-  .menu-list ul:hover{
-    background-color: grey;
-  }
+.menu-list ul:hover {
+  background-color: grey;
+}
 
-.main{
+.main {
   flex: 1;
-  }
-.orebroTower{
+}
+.orebroTower {
   max-height: 150px;
   margin: 0px;
   border: 0px;
   padding: 0px;
   margin: 10px;
-  }
-  .orebroAndListDiv{
-    max-width: 90vw;
-    border: yellow 1px solid;
-  }
-  
-  .orebroText{
-    width: 100%;
-    max-width: 500px
-  }
-  .orebroList{
-    width: 100%;
-    max-width: 100%;
-    text-align: center;
-  }
+  display: none;
+}
+.orebroAndListDiv {
+  max-width: 90vw;
+  border: yellow 1px solid;
+}
 
-  .headerList{
+.orebroText {
+  width: 100%;
+  max-width: 500px;
+}
+.orebroList {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.headerList {
   display: flex;
   align-items: center;
   white-space: nowrap;
   width: 100%;
   max-width: 90vw;
   justify-content: space-between;
-  }
-
-  .headerList > ul{
-    padding: 0px;
-    margin: 0 10px;
-    justify-content: space-between;
-  }
-
-  .headerList > ul > a{
-    text-decoration: none;
-    color: white;
-    color:rgb(254, 204, 2);
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  .headerList > ul.seeAndDo > a:hover,
-  .headerList > ul.foodAndDrink > a:hover{
-  
-  box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
-  transition: box-shadow 0.4s ease-in-out;
-  }
-
-  .headerList > ul.visitorInformation > a:hover{
-    transition: box-shadow 0.4s ease-in-out;
-    box-shadow: 
-  blue 0px 0px 0px 2px inset, 
-  rgb(255, 255, 255) 0px -10px 0px -3px, 
-  rgb(31, 193, 27) 0px -10px, 
-  rgb(255, 255, 255) 0px -20px 0px -3px, 
-  rgb(255, 217, 19) 0px -20px, 
-  rgb(255, 255, 255) 0px -30px 0px -3px, 
-  rgb(255, 156, 85) 0px -30px, 
-  rgb(255, 255, 255) 0px -40px 0px -3px, 
-  rgb(255, 85, 85) 0px -40px;
-  }
-
-.headerList > ul.whereToStay > a:hover,
-.headerList > ul.thingsForKids > a:hover{
-  transition: box-shadow 0.4s ease-in-out;
-  /* box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;; */
-  box-shadow: blue 0px 0px 0px 2px inset, 
-            rgb(255, 255, 255) -10px -10px 0px -3px, 
-            rgb(31, 193, 27) -10px -10px, 
-            rgb(255, 255, 255) -20px -20px 0px -3px, 
-            rgb(255, 217, 19) -20px -20px, 
-            rgb(255, 255, 255) -30px -30px 0px -3px, 
-            rgb(255, 156, 85) -30px -30px, 
-            rgb(255, 255, 255) -40px -40px 0px -3px, 
-            rgb(255, 85, 85) -40px -40px;
+  margin: 0 auto;
 }
 
+.headerList > ul {
+  padding: 0px;
+  margin: 0 10px;
+  justify-content: space-between;
+}
 
-.welcomeMessage{
+.headerList > ul > a {
+  text-decoration: none;
+  color: rgb(254, 204, 2);
+  font-weight: bold;
+  border-radius: 5px;
+}
+.headerList > ul.seeAndDo > a > h1:hover,
+.headerList > ul.foodAndDrink > a > h1:hover {
+  box-shadow: blue 0px 0px 0px 2px inset, transparent 10px -10px 0px -3px,
+    rgb(31, 193, 27) 10px -10px, transparent 20px -20px 0px -3px,
+    rgb(255, 217, 19) 20px -20px, transparent 30px -30px 0px -3px,
+    rgb(255, 156, 85) 30px -30px, transparent 40px -40px 0px -3px,
+    rgb(255, 85, 85) 40px -40px;
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.headerList > ul.visitorInformation > a > h1:hover {
+  transition: box-shadow 0.4s ease-in-out;
+  box-shadow: blue 0px 0px 0px 2px inset, rgb(0, 106, 167) 0px -10px 0px -3px,
+    rgb(31, 193, 27) 0px -10px, rgb(0, 106, 167) 0px -20px 0px -3px,
+    rgb(255, 217, 19) 0px -20px, rgb(0, 106, 167) 0px -30px 0px -3px,
+    rgb(255, 156, 85) 0px -30px, rgb(0, 106, 167) 0px -40px 0px -3px,
+    rgb(255, 85, 85) 0px -40px;
+}
+
+.headerList > ul.whereToStay > a > h1:hover,
+.headerList > ul.thingsForKids > a > h1:hover {
+  transition: box-shadow 0.4s ease-in-out;
+  box-shadow: blue 0px 0px 0px 2px inset, transparent -10px -10px 0px -3px,
+    rgb(31, 193, 27) -10px -10px, transparent -20px -20px 0px -3px,
+    rgb(255, 217, 19) -20px -20px, transparent -30px -30px 0px -3px,
+    rgb(255, 156, 85) -30px -30px, transparent -40px -40px 0px -3px,
+    rgb(255, 85, 85) -40px -40px;
+}
+
+.welcomeMessage {
   position: absolute;
   top: 50%;
-  left: 50%; 
+  left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 5vw;
   white-space: nowrap;
 }
-.castleBackground{
+.castleBackground {
   display: flex;
   margin: 0 auto;
   height: auto;
@@ -218,39 +214,36 @@ content: "";
   max-height: 90vh;
 }
 
-.welcomeBanner{  
-position: relative;
-}  
-
-.weatherDiv{
-  display: flex;
-  justify-content: center;
-
-  
- /* display: inline-block; /* set the display to inline-block to make the element wrap */
-  max-width: 100%; /* set the maximum width to the available width */
-  overflow: hidden; /* hide any overflow */
-  text-overflow: ellipsis; /* show an ellipsis when the text is truncated */
-  white-space: nowrap; /* prevent wrapping of individual words */
-  font-size: 2rem; /* set a default font size */
-  line-height: 1.2; /* set the line height to ensure proper spacing */
+.welcomeBanner {
+  position: relative;
 }
 
-
-
-.WeatherFlexBox{
+.weatherDiv {
   display: flex;
   justify-content: center;
-  /* border: 1px solid green; */
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 2rem;
+  line-height: 1.2;
 }
-.orebroWeather{
-  /* border: red solid 1px; */
+
+.WeatherFlexBox {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 106, 167); /*blue*/
+  background-color: rgb(254, 204, 2); /*yellow*/
+  max-width: 90vw;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.orebroWeather {
   width: 40%;
   max-width: 48vw;
   text-align: center;
 }
-.localWeather{
-  /* border: solid blue 1px; */
+.localWeather {
   width: 40%;
   max-width: 48vw;
   text-align: center;
@@ -259,138 +252,136 @@ position: relative;
 .mapDiv {
   display: flex;
   flex-direction: column;
-  margin: 20px auto;
-  max-width: 95vw;
+  margin: 0px auto 0px;
+  max-width: 90vw;
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding: 30px 0px 50px;
+  background-image: linear-gradient(
+    to bottom,
+    /* yellow */ rgb(254, 204, 2) 0%,
+    /* blue */ rgb(0, 106, 167) 45%
+  );
 }
 
 .googleMap {
-  max-width: 90%;
+  max-width: 98%;
   height: auto;
+  position: relative;
+  bottom: 20px;
+}
+.city-video-div {
+  padding: 250px 0px;
+  background-color: blue;
+  background-image: url("./Images/Aeroplane.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.cityVideo {
+  display: block;
+  margin: 0 auto;
+  height: 399px;
+  width: 710px;
+  max-width: 90vw;
 }
 
-.cityVideo{
- display: block;
- margin: 0 auto;
- height:399px;
- width:710px;
- max-width: 90vw;
-  
-}
-
-.FoodTitle{
+.FoodTitle {
   text-align: center;
 }
 
-.firstImageDiv{
+.firstImageDiv {
   text-align: center;
   justify-content: center;
   align-items: center;
-  
 }
-.whereToStayImg{
+.whereToStayImg {
   max-width: 95vw;
 }
 
-.firstFoodDiv{
+.firstFoodDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.firstFoodPic{
+.firstFoodPic {
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 
-.foodPics{
+.foodPics {
   max-width: 400px;
 }
 
-.footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  background-color: gray;
-  background-color: rgb(0,106,167);
-  color: rgb(254, 204, 2);
-  text-align: center;
-}
-
-.footerText{
-  font-size: 1.5rem;
-}
-
-.firstSeeAndDo{
+.firstSeeAndDo {
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 
-.cannonKids{
+.cannonKids {
   max-height: 500px;
   max-width: 95vw;
- }
+}
 
- .visitorInformationImg{
+.visitorInformationImg {
   max-width: 95vw;
- }
-/*max-width:880px*/
- @media (max-width:880px){
-  .headerList{
-    display:none;
+}
+@media (max-width: 1200px) {
+  .headerList > ul > a > h1 {
+    font-size: 2vw;
   }
-  .orebroList{
+}
+@media (max-width: 880px) {
+  .headerList {
+    display: none;
+  }
+  .orebroList {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     max-width: 90vw;
   }
-} 
+}
 
-@media (min-width:880px){
-  .hamburger{
+@media (min-width: 880px) {
+  .hamburger {
     display: none;
   }
 }
 
-@media screen and (max-height: 900px) {
-  .footer {
-    position: static;
-    margin-top: 20px; /* adjust this value as needed */
-  }
-}   
-
-
 @media screen and (max-width: 490px) {
   .weatherDiv {
-    font-size: 1.5rem; /* adjust the font size for smaller screens */
-    max-height: 3.6rem; /* set the maximum height to 2 lines at the smaller font size */
-    overflow: hidden; /* hide any overflow */
-    text-overflow: ellipsis; /* show an ellipsis when the text is truncated */
-    white-space: normal; /* allow wrapping of individual words */
+    font-size: 1.5rem;
+    max-height: 3.6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
     text-align: center;
   }
-}
-
-@media screen and (max-width: 400px) {
-  .weatherOutputOrebro .desc{
-font-size: 1rem;
-margin: 0px;
-height: 42px;
-color: red;
+  .googleMap {
+    max-width: 95%;
+  }
+  .city-video-div {
+    background-position: center;
   }
 }
 
+@media screen and (max-width: 400px) {
+  .weatherOutputOrebro .desc {
+    font-size: 1rem;
+    margin: 0px;
+    height: 42px;
+    color: red;
+  }
+}
 
 @media screen and (max-width: 400px) {
-  .weatherOutputLocal .desc{
+  .weatherOutputLocal .desc {
     font-size: 1rem;
     margin: 0px;
     height: 42px;
@@ -401,19 +392,10 @@ color: red;
 @media screen and (max-width: 490px) {
   .cityName {
     height: 64px;
-    /* color: green; */
   }
 }
 @media screen and (max-width: 400px) {
   .desc {
-    /* color: blue; */
-    height: 42px;    
+    height: 42px;
   }
 }
-
-
-/* @media screen and (max-width:490px){
-  .weatherDiv{
-    /* font-size: 1.5rem; */
-  /*}
-} */

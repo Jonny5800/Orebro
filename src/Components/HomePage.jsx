@@ -3,7 +3,7 @@ import CastleCropped from "../Images/CastleCropped.jpg"
 import Map from './GoogleMap'
 import WeatherDisplay from './WeatherDisplay'
 import UsersWeather from './UsersWeather'
-
+import MainPageGrid from './MainPageGrid'
 // before a user Search, weather for "your search"
 //make brckets round user description conditional  
 //extra line to commit
@@ -21,8 +21,11 @@ return (
     <h1 className='welcomeMessage'>Say Hello to Örebro</h1>
     <img src={CastleCropped} alt="castleBackground" className='castleBackground'/>
   </div>
+  <MainPageGrid/>
   <div>
-    <h1 className='weatherDiv'>Compare where you are to Örebro</h1>
+    <h1 className='weatherDiv'>Compare your weather to <span className='home-page-blue-text'>&nbsp;Örebro</span></h1>
+   
+
     <div className='WeatherFlexBox'>
       <div className='orebroWeather'>
         <WeatherDisplay /> 
@@ -35,10 +38,13 @@ return (
     <div className="mapDiv firstImageDiv">
       <Map className="googleMap"/> 
     </div>
-  <iframe 
+    <div className="city-video-div">
+       <iframe  
   className='cityVideo' src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7039943637970882561?compact=1" 
   frameBorder="1" allowFullScreen="" title="Embedded post">
   </iframe>
+    </div>
+ 
 </div>
 )}
 
