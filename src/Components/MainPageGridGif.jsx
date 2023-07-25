@@ -4,7 +4,7 @@ import axios from 'axios';
   const MainPageGridGif = ({style, numBtnClicks}) => {
   const [gifUrls, setGifUrls] = useState([]);
   const apiKey = 'hwRcQwF2Fc2MiIwqGFOrXv9a2KI2ECXQ';
-  const search = 'Sweden';
+  const search = 'Orebro Sweden';
   const gifsReceived = 10;
   const url = `https://api.giphy.com/v1/gifs/search?q=${search}&api_key=${apiKey}&limit=${gifsReceived}`;
 
