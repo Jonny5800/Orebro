@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/orebro-react/static/css/main.05bddfac.css",
-    "main.js": "/orebro-react/static/js/main.af10e16f.js",
-    "static/media/CastleCropped.jpg": "/orebro-react/static/media/CastleCropped.02016636e51caf050666.jpg",
-    "static/media/FoodFestival.jpg": "/orebro-react/static/media/FoodFestival.ad3080b78acf9130e1b7.jpg",
-    "static/media/SwedishHome.jpg": "/orebro-react/static/media/SwedishHome.5671f24ed3cc353338e4.jpg",
-    "static/media/PotatoPancakes.jpg": "/orebro-react/static/media/PotatoPancakes.1db56ce4eee06173ad95.jpg",
-    "static/media/CannonKids.jpg": "/orebro-react/static/media/CannonKids.3978a9eb1b2fa867c95c.jpg",
-    "static/media/KidsPlay.jpg": "/orebro-react/static/media/KidsPlay.7cf12789911350812c93.jpg",
-    "static/media/WaterParkGustavsvik.jpg": "/orebro-react/static/media/WaterParkGustavsvik.5a8dd3f8c9b7c659bdb4.jpg",
-    "static/media/ThingsToDo.jpg": "/orebro-react/static/media/ThingsToDo.d429153c1c4f32556c56.jpg",
-    "static/media/MusicGig.jpg": "/orebro-react/static/media/MusicGig.2622f1ed668991a665fa.jpg",
-    "static/media/VisitorGuides.jpg": "/orebro-react/static/media/VisitorGuides.0dcfbabe517d14ecbeee.jpg",
-    "static/media/Skiing.jpg": "/orebro-react/static/media/Skiing.e9bdb186b3f2e122010e.jpg",
-    "static/media/Hotel.jpg": "/orebro-react/static/media/Hotel.768b513d7f177737178e.jpg",
-    "static/media/Aeroplane.jpg": "/orebro-react/static/media/Aeroplane.eaffb749ab5ceacf981d.jpg",
-    "static/media/OrebroSign.jpg": "/orebro-react/static/media/OrebroSign.50ed28468f5ae16e350c.jpg",
-    "index.html": "/orebro-react/index.html",
-    "main.05bddfac.css.map": "/orebro-react/static/css/main.05bddfac.css.map",
-    "main.af10e16f.js.map": "/orebro-react/static/js/main.af10e16f.js.map"
+    "main.css": "/orebro/static/css/main.8a1c0aea.css",
+    "main.js": "/orebro/static/js/main.67a0bff9.js",
+    "static/media/CastleCropped.jpg": "/orebro/static/media/CastleCropped.02016636e51caf050666.jpg",
+    "static/media/FoodFestival.jpg": "/orebro/static/media/FoodFestival.ad3080b78acf9130e1b7.jpg",
+    "static/media/SwedishHome.jpg": "/orebro/static/media/SwedishHome.5671f24ed3cc353338e4.jpg",
+    "static/media/PotatoPancakes.jpg": "/orebro/static/media/PotatoPancakes.1db56ce4eee06173ad95.jpg",
+    "static/media/CannonKids.jpg": "/orebro/static/media/CannonKids.3978a9eb1b2fa867c95c.jpg",
+    "static/media/KidsPlay.jpg": "/orebro/static/media/KidsPlay.7cf12789911350812c93.jpg",
+    "static/media/WaterParkGustavsvik.jpg": "/orebro/static/media/WaterParkGustavsvik.5a8dd3f8c9b7c659bdb4.jpg",
+    "static/media/ThingsToDo.jpg": "/orebro/static/media/ThingsToDo.d429153c1c4f32556c56.jpg",
+    "static/media/MusicGig.jpg": "/orebro/static/media/MusicGig.2622f1ed668991a665fa.jpg",
+    "static/media/VisitorGuides.jpg": "/orebro/static/media/VisitorGuides.0dcfbabe517d14ecbeee.jpg",
+    "static/media/Skiing.jpg": "/orebro/static/media/Skiing.e9bdb186b3f2e122010e.jpg",
+    "static/media/Hotel.jpg": "/orebro/static/media/Hotel.768b513d7f177737178e.jpg",
+    "static/media/Aeroplane.jpg": "/orebro/static/media/Aeroplane.eaffb749ab5ceacf981d.jpg",
+    "static/media/OrebroSign.jpg": "/orebro/static/media/OrebroSign.50ed28468f5ae16e350c.jpg",
+    "index.html": "/orebro/index.html",
+    "main.8a1c0aea.css.map": "/orebro/static/css/main.8a1c0aea.css.map",
+    "main.67a0bff9.js.map": "/orebro/static/js/main.67a0bff9.js.map"
   },
   "entrypoints": [
-    "static/css/main.05bddfac.css",
-    "static/js/main.af10e16f.js"
+    "static/css/main.8a1c0aea.css",
+    "static/js/main.67a0bff9.js"
   ]
 }
