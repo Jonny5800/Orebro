@@ -70,8 +70,8 @@ const handleCountryChange = (event) =>{
          
          <div className='UserWeatherSearchDiv'>
             {errorTrue ? (null) : (<div></div>)}
-            <input type="text" placeholder='Enter City' value={userCity} onChange={handleCityChange} />
-            <input type="text" placeholder='Enter Country' value={userCountry} onChange={handleCountryChange}  />
+            <input type="text"  className="userCitySearch" placeholder='Enter City' value={userCity} onChange={handleCityChange} />
+            <input type="text"  className="UserCountrySearch" placeholder='Enter Country' value={userCountry} onChange={handleCountryChange}  />
             <button onClick={getWeather}>Click to Compare</button>
             {errorTrue && <div style={{color: "red", fontWeight: "bold"}}>{errorMessage}</div>}
         </div>

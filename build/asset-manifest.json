@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/orebro/static/css/main.46451c39.css",
-    "main.js": "/orebro/static/js/main.573f032a.js",
+    "main.css": "/orebro/static/css/main.8a1c0aea.css",
+    "main.js": "/orebro/static/js/main.67a0bff9.js",
     "static/media/CastleCropped.jpg": "/orebro/static/media/CastleCropped.02016636e51caf050666.jpg",
     "static/media/FoodFestival.jpg": "/orebro/static/media/FoodFestival.ad3080b78acf9130e1b7.jpg",
     "static/media/SwedishHome.jpg": "/orebro/static/media/SwedishHome.5671f24ed3cc353338e4.jpg",
@@ -17,11 +17,11 @@
     "static/media/Aeroplane.jpg": "/orebro/static/media/Aeroplane.eaffb749ab5ceacf981d.jpg",
     "static/media/OrebroSign.jpg": "/orebro/static/media/OrebroSign.50ed28468f5ae16e350c.jpg",
     "index.html": "/orebro/index.html",
-    "main.46451c39.css.map": "/orebro/static/css/main.46451c39.css.map",
-    "main.573f032a.js.map": "/orebro/static/js/main.573f032a.js.map"
+    "main.8a1c0aea.css.map": "/orebro/static/css/main.8a1c0aea.css.map",
+    "main.67a0bff9.js.map": "/orebro/static/js/main.67a0bff9.js.map"
   },
   "entrypoints": [
-    "static/css/main.46451c39.css",
-    "static/js/main.573f032a.js"
+    "static/css/main.8a1c0aea.css",
+    "static/js/main.67a0bff9.js"
   ]
 }

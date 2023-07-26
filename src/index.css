@@ -1,6 +1,9 @@
 /* * {
   border: 1px solid black;
 } */
+.App {
+  max-width: 100vw;
+}
 .main {
   padding-bottom: 50px;
 }
@@ -332,6 +335,17 @@ code {
 .visitorInformationImg {
   max-width: 95vw;
 }
+* {
+  border: 1px solid red;
+}
+/* .userCitySearch {
+  width: 100%;
+  color: blue;
+}
+.UserCountrySearch {
+  width: 50%;
+  color: blue;
+} */
 @media (max-width: 1200px) {
   .headerList > ul > a > h1 {
     font-size: 2vw;
@@ -400,4 +414,12 @@ code {
   .desc {
     height: 42px;
   }
+}
+.userCitySearch {
+  width: 100%;
+  color: blue;
+}
+.UserCountrySearch {
+  width: 50%;
+  color: blue;
 }
